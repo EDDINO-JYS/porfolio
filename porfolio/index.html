@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Herintsoa Eddino - Ingénieur Réseaux</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: url("images/ZA.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+    header {
+      height: 100vh;
+      background: linear-gradient(130deg, #000000, #1a1a1a);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #00ffd5;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+    .btn {
+      margin: 1rem;
+      padding: 1rem 2rem;
+      background: #00ffd5;
+      color: #000;
+      border: none;
+      border-radius: 30px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #00c9aa;
+      transform: scale(1.05);
+    }
+    nav {
+      background: #111;
+      padding: 1rem 0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00ffd5;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeUp 1s ease;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #00ffd5;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+      margin: auto;
+    }
+    form input, form textarea {
+      padding: 1rem;
+      border-radius: 10px;
+      border: none;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Herintsoa Eddino</h1>
+  <p>Ingénieur Informatique – Systèmes & Réseaux</p>
+  <a href="https://www.linkedin.com/in/eddino-herintsoa-b5879328b" class="btn" target="_blank">LinkedIn</a>
+  <a href="https://wa.me/261327261071" class="btn" target="_blank">WhatsApp</a>
+</header>
+
+<nav>
+  <a href="#skills">Compétences</a>
+  <a href="#experience">Expérience</a>
+  <a href="#formation">Formation</a>
+  <a href="#gallery">Illustrations</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="skills">
+  <h2 class="section-title">Compétences</h2>
+  <ul>
+    <li>Administration systèmes & réseaux</li>
+    <li>Résolution d’incidents / diagnostic de pannes</li>
+    <li>Création et maintenance de sites web (HTML, SEO, e-commerce)</li>
+    <li>Configuration d’équipements réseau & routage</li>
+    <li>Support technique et gestion de parc informatique</li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2 class="section-title">Expériences Professionnelles</h2>
+  <p><strong>Orange Business</strong> – Analyste Réseaux (Actuel)</p>
+  <p><strong>Formateur Freelance</strong> – Janv. à Sept. 2023</p>
+  <p><strong>Technicien Systèmes – Haute-Zone</strong> – 2021</p>
+  <p><strong>Développeur Web – Company For Madagascar</strong> – 2020</p>
+  <p><strong>Technicien Réseaux – ACM</strong> – 2019</p>
+</section>
+
+<section id="formation">
+  <h2 class="section-title">Formation § certification</h2>
+  <p><strong>Diplôme d’Ingénieur en Informatique Générale</strong> – ENI, Fianarantsoa (2015 – 2020)</p>
+  <p><strong>CCNA 2020: Layer 1 Interfaces & Cabling</strong> Skillsoft (2023)</p>
+  <p><strong>CCNA 2020: Network Topology Architectures</strong> Skillsoft (2023)</p>
+  <p><strong>CCNA 2020: Network Topology Architectures - WAN, Cloud, & SOHO</strong> Skillsoft (2023)</p>
+  <p><strong>CCNA 2020: Networking Components</strong> Skillsoft (2023)</p>
+  <p><strong>CCNA 2020: Networking Components - NGFW, NGIPS, & Cisco DNA Center</strong> Skillsoft (2023)</p>
+  <p><strong>CCNA 2020: WLCs, Access Points, Servers, & Endpoints</strong> Skillsoft (2023)</p>
+  <p><strong>Computer Hardware Basics</strong> Skillsoft (2023)</p>
+  <p><strong>Endpoint Security</strong> Skillsoft (2023)</p>
+  <p><strong>Networking Basics</strong> Skillsoft (2023)</p>
+</section>
+
+<section id="gallery">
+  <h2 class="section-title">Galerie Illustrative</h2>
+  <div class="gallery">
+    <img src="images/centre.jpg" alt="Datacenter" alt="Datacenter" />
+    <img src="images/fibreoptique.jpg" alt="Fibre optique" alt="Fibre optique" />
+    <img src="images/ingenieur.jpg" alt="Câblage réseau" alt="Câblage réseau" />
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact</h2>
+  <form action="mailto:herintsoae@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="Nom" placeholder="Votre nom" required/>
+    <input type="email" name="Email" placeholder="Votre email" required/>
+    <textarea name="Message" rows="5" placeholder="Votre message" required></textarea>
+    <button type="submit" class="btn">Envoyer</button>
+  </form>
+  <br>
+  <div style="text-align: center;">
+    <a href="Herintsoa_Eddino_CV.pdf" class="btn" download>Télécharger mon CV</a>
+  </div>
+</section>
+
+</body>
+</html>
